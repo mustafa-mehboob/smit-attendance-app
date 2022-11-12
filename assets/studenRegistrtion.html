@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Welfare Int Trust</title>
+    <link rel="stylesheet" href="studentRegistration.css">
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-container">
+            <a href="../index.html" class="head">
+                <img class="saylani-logo" src="https://saylaniwelfare.com/static/media/logo_saylaniwelfare.22bf709605809177256c.png" alt="logo_saylaniwelfare">
+                <div class="letf-btns">
+                    <h1>Enroll New Students</h1>
+                </div>
+            </a>
+        </div>
+
+        <div class="main-body">
+            <div class="form">
+                <div class="form-div1">
+                    <div class="name child-form">
+                        <h4>Name</h4>
+                        <input type="text" id="name" placeholder="Enter Name" required>
+                    </div>
+                    <div class="fatherName child-form">
+                        <h4>Father Name</h4>
+                        <input type="text" id="fatherName" placeholder="Enter Father Naem" required>
+                    </div>
+                </div>
+                <div class="form-div1">
+                    <div class="roll-number child-form">
+                        <h4>Enter Roll Number</h4>
+                        <input type="number" id="rollNumber" placeholder="Enter Roll Number" required>
+                    </div>
+                    <div class="contact-number child-form">
+                        <h4>Enter Contact Number</h4>
+                        <input type="number" id="contactNumber" placeholder="Enter Contact Number" required>
+                    </div>
+                </div>
+                <div class="form-div1">
+                    <div class="cinic child-form">
+                        <h4>Enter CNIC</h4>
+                        <input type="number" id="cnic" placeholder="Enter Cnic" required>
+                    </div>
+                    <div class="course-name child-form">
+                        <h4>Slect Course Name</h4>
+                        <select  name="cars" id="courseName" >
+                          </select>
+                    </div>                    
+                </div>
+                <div class="form-div1">
+                    <div class="picture ">
+                        <h4>Picture</h4>
+                        <input type="file" id="picture" name="filename" style="height: 39%; width: 174%;">
+                    </div>
+                    <div class="slect-class child-form">
+                        <h4>Slect Class</h4>
+                        <input type="text" id="slectClass" placeholder="Slect Class" required>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-btn">
+                <button class="btn" id="create" >Register</button>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="studenRegistration.js"></script>
+</body>
+</html>
